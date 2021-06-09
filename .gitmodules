@@ -1,0 +1,3 @@
+[submodule "submodulevicky"]
+	path = submodulevicky
+	url = ./submodulevicky/
