@@ -1,0 +1,33 @@
+# Hosts file for servers running Hummm on prodblue environment
+
+[dmz]
+dmz-hmau-pb[1:10].humm.local
+
+[tz]
+tz-hmau-pb[1:10].humm.local
+tz-hmaut-pb[1:5].humm.local
+tz-hmaub-pb[1:5].humm.local
+
+[dmzau]
+dmz-hmauv2-pb1 ansible_host=10.63.1.16
+dmz-hmauv2-pb2 ansible_host=10.63.1.17
+dmz-hmauv2-pb3 ansible_host=10.63.1.18
+dmz-hmauv2-pb4 ansible_host=10.63.1.19
+
+[tzau]
+tz-hmauv2-pb1 ansible_host=10.130.163.16
+tz-hmauv2-pb2 ansible_host=10.130.163.17
+tz-hmauv2-pb3 ansible_host=10.130.163.18
+tz-hmauv2-pb4 ansible_host=10.130.163.19
+
+[dmznz]
+dmz-hmnz-pb1 ansible_host=10.63.1.130
+dmz-hmnz-pb2 ansible_host=10.63.1.131
+dmz-hmnz-pb3 ansible_host=10.63.1.132
+dmz-hmnz-pb4 ansible_host=10.63.1.133
+
+[tznz]
+tz-hmnz-pb1 ansible_host=10.130.163.175
+tz-hmnz-pb2 ansible_host=10.130.163.176
+tz-hmnz-pb3 ansible_host=10.130.163.177
+tz-hmnz-pb4 ansible_host=10.130.163.178
