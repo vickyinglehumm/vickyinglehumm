@@ -1,6 +1,0 @@
-[submodule "submodulevicky"]
-	path = submodulevicky
-	url = ./submodulevicky/
-[submodule "vickysubmod2"]
-	path = vickysubmod2
-	url = https://github.com/vickyinglehumm/vickysubmod2.git
